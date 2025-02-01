@@ -6,5 +6,3 @@
     @endforeach
 </ul>
 
-{{-- Bug 5: Pagination not displayed --}}
-{{-- $products->links() --}}  {{-- Uncommented for fix --}}
