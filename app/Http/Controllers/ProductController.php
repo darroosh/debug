@@ -17,7 +17,7 @@ class ProductController extends Controller
     {
         $product = Product::find($id);
 
-        return view('products.missing', compact('prodcut'));
+        return view('products.view', compact('prodcut'));
 
     }
 }

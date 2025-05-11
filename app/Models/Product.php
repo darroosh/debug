@@ -9,7 +9,5 @@ class Product extends Model
 {
     use HasFactory;
 
-    // Bug 4: Missing $fillable or $guarded property (for mass assignment vulnerability, though not directly a "bug" in this context, good to discuss)
-    // protected $fillable = ['name', 'description', 'price'];  // Example fix
-    protected $guarded = []; // Example fix
+    protected $guarded = [];
 }
